@@ -1,4 +1,4 @@
-﻿# root: The province in which the building was completed
+﻿## root: The province in which the building was completed
 # character: The character that paid for the construction, if available
 # on_building_completed = {
 # 	effect = {
