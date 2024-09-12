@@ -1,3 +1,0 @@
-﻿bloodstone_keep_court = {
-	icon = martial_positive
-}

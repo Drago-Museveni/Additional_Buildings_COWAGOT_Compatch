@@ -11,16 +11,16 @@
 #	These groups are mutually exclusive on the same tier & should cover every part of the map
 ###########################################################################
 
-world_harrenhal = {
-	provinces = {
-		1934
-	}
-}
+#world_harrenhal = {
+#	provinces = {
+#		1934
+#	}
+#}
 
-graphical_bloodstone = {
-    graphical = yes
-    color = { 0 255 255 }
-	provinces = {
-		7294
-	}
-}
+#graphical_bloodstone = {
+#   graphical = yes
+#    color = { 0 255 255 }
+#	provinces = {
+#		7294
+#	}
+#}
