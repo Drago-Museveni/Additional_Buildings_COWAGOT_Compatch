@@ -424,24 +424,24 @@ walls_01 = {
 	}
 
 	#AGOT Added, YiTish
-	#asset = {
-	#	type = pdxmesh
-	#	names = {
-	#		"chinese_walls_01_mesh"
-	#		"chinese_walls_01_mesh"
-	#	}
-	#	graphical_cultures = { yitish_building_gfx hyrkoon_building_gfx }
-	#}
+	asset = {
+		type = pdxmesh
+		names = {
+			"chinese_walls_01_mesh"
+			"chinese_walls_01_mesh"
+		}
+		graphical_cultures = { yitish_building_gfx hyrkoon_building_gfx }
+	}
 
 	#AGOT Added, Qartheen
-	#asset = {
-	#	type = pdxmesh
-	#	names = {
-	#		"ethiopian_walls_01_mesh"
-	#		"ethiopian_walls_01_mesh"
-	#	}
-	#	graphical_cultures = { qartheen_building_gfx }
-	#}
+	asset = {
+		type = pdxmesh
+		names = {
+			"ethiopian_walls_01_mesh"
+			"ethiopian_walls_01_mesh"
+		}
+		graphical_cultures = { qartheen_building_gfx }
+	}
 
 	asset = {
 		type = pdxmesh
@@ -613,34 +613,34 @@ walls_02 = {
 	}
 
 	#AGOT Added, Ghis
-	#asset = {
-	#	type = pdxmesh
-	#	names = {
-	#		"cemanahuac_wall_02_mesh"
-	#		"cemanahuac_wall_02_mesh"
-	#	}
-	#	graphical_cultures = { ghis_building_gfx }
-	#}
+	asset = {
+		type = pdxmesh
+		names = {
+			"cemanahuac_wall_02_mesh"
+			"cemanahuac_wall_02_mesh"
+		}
+		graphical_cultures = { ghis_building_gfx }
+	}
 
 	#AGOT Added, YiTish
-	#asset = {
-	#	type = pdxmesh
-	#	names = {
-	#		"chinese_walls_02_mesh"
-	#		"chinese_walls_02_mesh"
-	#	}
-	#	graphical_cultures = { yitish_building_gfx hyrkoon_building_gfx }
-	#}
+	asset = {
+		type = pdxmesh
+		names = {
+			"chinese_walls_02_mesh"
+			"chinese_walls_02_mesh"
+		}
+		graphical_cultures = { yitish_building_gfx hyrkoon_building_gfx }
+	}
 
 	#AGOT Added, Qartheen
-	#asset = {
-	#	type = pdxmesh
-	#	names = {
-	#		"ethiopian_walls_02_mesh"
-	#		"ethiopian_walls_02_mesh"
-	#	}
-	#	graphical_cultures = { qartheen_building_gfx }
-	#}
+	asset = {
+		type = pdxmesh
+		names = {
+			"ethiopian_walls_02_mesh"
+			"ethiopian_walls_02_mesh"
+		}
+		graphical_cultures = { qartheen_building_gfx }
+	}
 
 	asset = {
 		type = pdxmesh
@@ -802,34 +802,34 @@ walls_03 = {
 	}
 
 	#AGOT Added, Ghis
-	#asset = {
-	#	type = pdxmesh
-	#	names = {
-	#		"cemanahuac_wall_02_mesh"
-	#		"cemanahuac_wall_02_mesh"
-	#	}
-	#	graphical_cultures = { ghis_building_gfx }
-	#}
+	asset = {
+		type = pdxmesh
+		names = {
+			"cemanahuac_wall_02_mesh"
+			"cemanahuac_wall_02_mesh"
+		}
+		graphical_cultures = { ghis_building_gfx }
+	}
 
 	#AGOT Added, YiTish
-	#asset = {
-	#	type = pdxmesh
-	#	names = {
-	#		"chinese_walls_03_mesh"
-	#		"chinese_walls_03_mesh"
-	#	}
-	#	graphical_cultures = { yitish_building_gfx hyrkoon_building_gfx }
-	#}
+	asset = {
+		type = pdxmesh
+		names = {
+			"chinese_walls_03_mesh"
+			"chinese_walls_03_mesh"
+		}
+		graphical_cultures = { yitish_building_gfx hyrkoon_building_gfx }
+	}
 
 	#AGOT Added, Qartheen
-	#asset = {
-	#	type = pdxmesh
-	#	names = {
-	#		"ethiopian_walls_03_mesh"
-	#		"ethiopian_walls_03_mesh"
-	#	}
-	#	graphical_cultures = { qartheen_building_gfx }
-	#}
+	asset = {
+		type = pdxmesh
+		names = {
+			"ethiopian_walls_03_mesh"
+			"ethiopian_walls_03_mesh"
+		}
+		graphical_cultures = { qartheen_building_gfx }
+	}
 
 	asset = {
 		type = pdxmesh
@@ -1000,34 +1000,34 @@ walls_04 = {
 	}
 
 	#AGOT Added, Ghis
-	#asset = {
-	#	type = pdxmesh
-	#	names = {
-	#		"cemanahuac_wall_02_mesh"
-	#		"cemanahuac_wall_02_mesh"
-	#	}
-	#	graphical_cultures = { ghis_building_gfx }
-	#}
+	asset = {
+		type = pdxmesh
+		names = {
+			"cemanahuac_wall_02_mesh"
+			"cemanahuac_wall_02_mesh"
+		}
+		graphical_cultures = { ghis_building_gfx }
+	}
 
 	#AGOT Added, YiTish
-	#asset = {
-	#	type = pdxmesh
-	#	names = {
-	#		"chinese_walls_04_mesh"
-	#		"chinese_walls_04_mesh"
-	#	}
-	#	graphical_cultures = { yitish_building_gfx hyrkoon_building_gfx }
-	#}
+	asset = {
+		type = pdxmesh
+		names = {
+			"chinese_walls_04_mesh"
+			"chinese_walls_04_mesh"
+		}
+		graphical_cultures = { yitish_building_gfx hyrkoon_building_gfx }
+	}
 
 	#AGOT Added, Qartheen
-	#asset = {
-	#	type = pdxmesh
-	#	names = {
-	#		"ethiopian_walls_04_mesh"
-	#		"ethiopian_walls_04_mesh"
-	#	}
-	#	graphical_cultures = { qartheen_building_gfx }
-	#}
+	asset = {
+		type = pdxmesh
+		names = {
+			"ethiopian_walls_04_mesh"
+			"ethiopian_walls_04_mesh"
+		}
+		graphical_cultures = { qartheen_building_gfx }
+	}
 
 	asset = {
 		type = pdxmesh
