@@ -694,12 +694,10 @@ agot_hightide_01 = {
 	on_complete = {
 		if ={
 			limit = {
-				holding = {
 					NOR = {
 						has_building = castle_05
 						has_building = castle_06
 						has_building = castle_07
-					}
 				}
 			}		
 			add_building = castle_05
@@ -816,9 +814,9 @@ bloodstone_special_02 = {
 	}
 
 	can_construct = {
-		has_building_or_higher = castle_02	
+#		has_building_or_higher = castle_02	
 		scope:holder = { prestige_level >= 2 }
-#		scope:holder = { has_primary_title = title:k_the_stepstones }
+		scope:holder = { has_primary_title = title:k_the_stepstones }
 	}
 
 	asset = {
@@ -876,30 +874,33 @@ bloodstone_special_03 = {
 	}
 
 	can_construct = {
-		has_building_or_higher = castle_03	
+#		has_building_or_higher = castle_03	
 		scope:holder = { has_trait = dragonrider }
-		scope:holder = { prestige_level >= 4 }
-		scope:holder = { has_primary_title = title:k_the_stepstones }
+		scope:holder = { prestige_level >= 3 }
+		scope:holder = { has_title = title:k_the_stepstones }
 	}
 	
-	cost_gold = 3000
+	cost_gold = 2000
+
+	next_building = bloodstone_special_04
 
 	character_modifier = {
 		martial_per_prestige_level = 1
 		powerful_vassal_opinion = 5
-		feudal_government_opinion = 15
+		legitimacy_gain_mult = 0.05
+#		feudal_government_opinion = 15
 	}
 	province_modifier = {
 		defender_holding_advantage = 6
 		fort_level = 4
 	}
 	county_modifier = {
-		levy_reinforcement_rate = 0.25
+		levy_reinforcement_rate = 0.20
 		monthly_county_control_growth_factor = 0.05
 	}
 	
-	levy = 500
-	max_garrison = 500
+	levy = 400
+	max_garrison = 400
 	garrison_reinforcement_factor = 0.09
 	
 	flag = travel_point_of_interest_martial
@@ -912,6 +913,72 @@ bloodstone_special_03 = {
 	type = special
 
 }
+
+bloodstone_special_04 = {
+
+	construction_time = very_slow_construction_time
+	
+	asset = {
+		type = pdxmesh
+		name = "building_bloodstone_final_mesh"
+	}
+
+	on_complete = {
+		title:c_bloodstone = { 
+			add_county_modifier = {
+				modifier = bloodstone_keep_court
+			}
+		}
+	}
+	
+
+	type_icon = "icon_bloodstone.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+#		has_building_or_higher = castle_03	
+		scope:holder = { has_trait = dragonrider }
+		scope:holder = { prestige_level >= 4 }
+		scope:holder = { has_title = title:k_the_stepstones }
+	}
+	
+	cost_gold = 3000
+
+	character_modifier = {
+		martial_per_prestige_level = 3
+		powerful_vassal_opinion = 5
+		legitimacy_gain_mult = 0.1
+		monthly_income = 5.0
+#		feudal_government_opinion = 15
+	}
+	province_modifier = {
+		defender_holding_advantage = 8
+		fort_level = 7
+	}
+	county_modifier = {
+		levy_reinforcement_rate = 0.25
+		monthly_county_control_growth_factor = 0.05
+
+	}
+	
+	levy = 500
+	max_garrison = 500
+	garrison_reinforcement_factor = 0.1
+	
+	flag = travel_point_of_interest_martial
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+	
+	type = special
+
+}
+
 
 ##########
 # Hellgate Hall
