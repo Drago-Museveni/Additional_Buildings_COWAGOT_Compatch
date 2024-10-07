@@ -106,7 +106,7 @@ the_red_keep_02 = {
 	}
 
 	can_construct = {
-		title:b_the_red_keep.title_province = { has_building_or_higher = seven_gates_01 }
+		title:b_hookmarket.title_province = { has_building_or_higher = seven_gates_01 }
 	}
 
 	can_construct_showing_failures_only = {
@@ -215,7 +215,7 @@ seven_gates_01 = {
 	type_icon = "icon_walls_of_kings_landing.dds"
 
 	can_construct_potential = {
-		barony = title:b_the_red_keep
+		barony = title:b_hookmarket
 		building_requirement_tribal = no
 	}
 
@@ -224,10 +224,10 @@ seven_gates_01 = {
 		title:b_goldguard_heights.title_province = { has_building_or_higher = cobblers_square_01 }
 	}
 
-#	asset = {
-#		type = pdxmesh
-#		name = "building_special_KL_SouthWalls_new_mesh"
-#	}
+	asset = {
+		type = pdxmesh
+		name = "building_special_KL_SouthWalls_new_mesh"
+	}
 
 	cost_gold = 1000
 
@@ -253,7 +253,7 @@ seven_gates_01 = {
 		}
 	}
 
-	type = duchy_capital
+	type = special
 }
 
 ##########
@@ -534,7 +534,7 @@ dragonpit_02 = {
 	effect_desc = building_dragonpit_effect
 
 	can_construct = {
-		title:b_the_red_keep.title_province = { has_building = seven_gates_01 }
+		title:b_hookmarket.title_province = { has_building = seven_gates_01 }
 
 	}
 
@@ -632,130 +632,6 @@ agot_summerhall_01 = {
 	flag = travel_point_of_interest_diplomatic
 }
 
-##########
-# Hightide
-##########
-
-agot_hightide_01 = {
-
-	construction_time = very_slow_construction_time
-	
-	asset = {
-		type = pdxmesh
-		name = "hightide_1_mesh"
-	}
-	
-
-	type_icon = "icon_hightide.dds"
-
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
-
-	can_construct = {
-		trigger_if = {
-			limit = {
-				NOT = { scope:holder = county.holder }
-			}
-			county = { holder.dynasty = dynasty:dynn_Velaryon }
-			scope:holder = { dynasty = dynasty:dynn_Velaryon }
-		}
-		trigger_else = {
-			scope:holder = { dynasty = dynasty:dynn_Velaryon }
-		}
-		scope:holder = { prestige_level >= 5 }
-	}
-
-	cost_gold = 750
-
-	province_modifier = {
-		monthly_income = 5
-		fort_level = 2
-	}
-
-	character_modifier = {
-		court_grandeur_baseline_add = 10
-		tax_mult = 0.1
-		legitimacy_gain_mult = 0.1
-		legitimacy_loss_mult = -0.1
-		owned_legend_spread_mult = 0.1
-	}
-
-	ai_value = {
-		base = 100
-		culture_likely_to_fortify_modifier = yes
-	}
-
-	type = special
-
-	flag = travel_point_of_interest_economic
-	
-	
-	on_complete = {
-		if ={
-			limit = {
-					NOR = {
-						has_building = castle_05
-						has_building = castle_06
-						has_building = castle_07
-				}
-			}		
-			add_building = castle_05
-		}
-	}
-}
-
-
-agot_ruins_hightide_02 = {
-	
-	asset = {
-		type = pdxmesh
-		name = "hightide_1_mesh"
-	}
-
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
-
-	can_construct = {
-		trigger_if = {
-			limit = {
-				NOT = { scope:holder = county.holder }
-			}
-			county = { holder.dynasty = dynasty:dynn_Velaryon }
-			scope:holder = { dynasty = dynasty:dynn_Velaryon }
-		}
-		trigger_else = {
-			scope:holder = { dynasty = dynasty:dynn_Velaryon }
-		}
-	}
-
-	construction_time = very_slow_construction_time
-
-	cost_gold = 1250
-
-	province_modifier = {
-		monthly_income = 5
-		fort_level = 2
-	}
-
-	character_modifier = {
-		court_grandeur_baseline_add = 10
-		tax_mult = 0.1
-		legitimacy_gain_mult = 0.1
-		legitimacy_loss_mult = -0.1
-		owned_legend_spread_mult = 0.1
-	}
-
-	ai_value = {
-		base = 100
-		culture_likely_to_fortify_modifier = yes
-	}
-
-	type = special
-
-	flag = travel_point_of_interest_economic
-}
 
 ##########
 # Bloodstone Daemon
