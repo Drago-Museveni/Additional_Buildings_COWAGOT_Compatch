@@ -1,4 +1,4 @@
-﻿old_harrenhal = { #COW Harrenhal Restored
+﻿old_harrenhal = { ###COW Harrenhal Restored
 	construction_time = very_slow_construction_time
 	effect_desc = {
 		triggered_desc = {
