@@ -4,5 +4,5 @@ tags={
 	"Gameplay"
 }
 name="AGOT Additional Models and Special Buildings - COW:AGOT Compatch"
-supported_version="1.12.5"
+supported_version="1.13.0.4"
 remote_file_id="3318986126"
