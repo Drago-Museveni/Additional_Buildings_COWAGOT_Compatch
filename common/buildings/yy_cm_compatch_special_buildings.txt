@@ -58,6 +58,10 @@ the_red_keep_01 = {
 		building_requirement_tribal = no
 	}
 
+	can_construct_showing_failures_only = {
+	province_owner = { culture = culture:high_valyrian }
+	}
+
 	asset = {
 		type = pdxmesh
 		name = "building_special_KL_aegonfort_new_mesh"
@@ -111,6 +115,7 @@ the_red_keep_02 = {
 
 	can_construct_showing_failures_only = {
 		has_building_or_higher = castle_03	
+		province_owner = { culture = culture:high_valyrian }
 	}
 
 	asset = {
@@ -165,6 +170,7 @@ the_red_keep_03 = {
 
 	can_construct_showing_failures_only = {
 		has_building_or_higher = castle_05	
+		province_owner = { culture = culture:high_valyrian }
 	}
 
 
