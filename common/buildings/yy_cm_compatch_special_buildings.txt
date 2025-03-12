@@ -1,4 +1,4 @@
-﻿old_harrenhal = { ###COW Harrenhal Restored
+﻿old_harrenhal = { ####COW Harrenhal Restored
 	construction_time = very_slow_construction_time
 	effect_desc = {
 		triggered_desc = {
@@ -27,6 +27,10 @@
 
 	county_modifier = {
 		monthly_county_control_growth_factor = 0.1
+	}
+	
+	can_construct_showing_failures_only = {
+		has_building_or_higher = castle_05	
 	}
 
 	max_garrison = 4000
@@ -132,7 +136,7 @@ the_red_keep_02 = {
 	character_modifier = {
 		legitimacy_gain_mult = 0.05
 		dread_gain_mult = 0.1
-		personal_scheme_power_mult = 0.15
+		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 		monthly_prestige_gain_mult = 0.1
 	}
 
@@ -169,7 +173,7 @@ the_red_keep_03 = {
 	}
 
 	can_construct_showing_failures_only = {
-		has_building_or_higher = castle_05	
+		has_building_or_higher = castle_03	
 		province_owner = { culture = culture:high_valyrian }
 	}
 
@@ -184,8 +188,8 @@ the_red_keep_03 = {
 	character_modifier = {
 		legitimacy_gain_mult = 0.1
 		court_grandeur_baseline_add = 5
-		hostile_scheme_resistance_mult = -0.15
-		personal_scheme_power_mult = 0.15
+		enemy_hostile_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 		prestige_level_impact_mult = 0.1
 		monthly_prestige_gain_mult = 0.1
 	}
@@ -287,7 +291,7 @@ cobblers_square_01 = {
 	cost_gold = 100
 
 	province_modifier = {
-		monthly_income = 0.5
+		monthly_income = good_building_tax_tier_4
 	}
 
 	county_modifier = {
@@ -332,7 +336,7 @@ holy_site_great_sept_01 = {
 
 	is_enabled = {
 		custom_description = {
-			text = holy_site_muslim_christian_or_holy_site_trigger
+			text = agot_holy_site_fallback_trigger
 			OR = {
 				scope:holder = {
 					religion = religion:faith_of_the_seven_religion
@@ -370,7 +374,7 @@ holy_site_great_sept_01 = {
 	}
 
 	province_modifier = {
-		monthly_income = 3
+		monthly_income = excellent_building_tax_tier_5
 	}
 
 	ai_value = {
@@ -411,7 +415,7 @@ generic_great_sept_01 = {
 
 	is_enabled = {
 		custom_description = {
-			text = holy_site_muslim_christian_or_holy_site_trigger
+			text = agot_holy_site_fallback_trigger
 			OR = {
 				scope:holder = {
 					religion = religion:faith_of_the_seven_religion
@@ -449,7 +453,7 @@ generic_great_sept_01 = {
 	}
 
 	province_modifier = {
-		monthly_income = 3
+		monthly_income = excellent_building_tax_tier_5
 	}
 
 	ai_value = {
@@ -555,7 +559,9 @@ dragonpit_02 = {
 		}
 	}
 
-	cost_gold = 1500
+	effect_desc = building_dragonpit_effect
+
+	cost_gold = 3000
 
 	county_holder_character_modifier = {
 		dread_gain_mult = 0.1
