@@ -2,7 +2,7 @@
 # Pre-Conquest Harrenhal #
 ##########################
 
-old_harrenhal = { ####COW Harrenhal Restored
+harrenhal_01 = {
 	construction_time = very_slow_construction_time
 	effect_desc = {
 		triggered_desc = {
@@ -26,7 +26,7 @@ old_harrenhal = { ####COW Harrenhal Restored
 		has_building_or_higher = castle_05
 	}
 
-	cost_gold = 3000
+	cost_gold = 5000
 
 	character_modifier = {
 		monthly_prestige = 0.30
@@ -34,7 +34,7 @@ old_harrenhal = { ####COW Harrenhal Restored
 	}
 
 	county_modifier = {
-		monthly_county_control_growth_factor = 0.1
+		monthly_county_control_growth_factor = 0.15
 	}
 
 	max_garrison = 5000
