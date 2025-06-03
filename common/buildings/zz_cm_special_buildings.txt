@@ -1,6 +1,6 @@
-﻿##########################
-# Pre-Conquest Harrenhal #
-##########################
+﻿#################################
+# Pre-Conquest Harrenhal Revamp #
+#################################
 
 harrenhal_01 = {
 	construction_time = very_slow_construction_time
@@ -13,7 +13,7 @@ harrenhal_01 = {
 
 	asset = {
 		type = pdxmesh
-		name = "harrenhal_restored_mesh"
+		name = "building_special_harrenhal_restored_mesh"
 	}
 
 	type_icon = "icon_harrenhal.dds"
