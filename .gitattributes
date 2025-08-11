@@ -13,4 +13,6 @@ README.md filter=lfs diff=lfs merge=lfs -text
 gfx/map/terrain/detail_index.tga filter=lfs diff=lfs merge=lfs -text
 gfx/map/terrain/detail_intensity.tga filter=lfs diff=lfs merge=lfs -text
 gfx/map/surround_map/surround_mask.dds filter=lfs diff=lfs merge=lfs -text
+gfx/map/terrain/flatmap.dds filter=lfs diff=lfs merge=lfs -text
+gfx/map/map_data/rivers.png filter=lfs diff=lfs merge=lfs -text
 *.tga filter=lfs diff=lfs merge=lfs -text
