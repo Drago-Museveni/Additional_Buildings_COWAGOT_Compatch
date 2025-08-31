@@ -5,4 +5,4 @@ tile_size=33
 should_wrap_x=no
 level_offsets={ { 0 0 } { 0 2953 } { 0 3454 } { 0 3616 } { 0 3668 } }
 max_compress_level=4
-empty_tile_offset={ 132 138 }
+empty_tile_offset={ 118 138 }
